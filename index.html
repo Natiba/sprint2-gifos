@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css links -->
+    <link rel="stylesheet" href="max.css">
+    <title>Gifos Sprint2</title>
+  </head>
+  <body>
+    <!-- ==== HEADER START HERE ==== -->
+    <header>
+      <!-- xx empty div for logo xx -->
+      <div class="headerLogo" id="headerLogo"></div>
+
+      <!-- ==== NAV START HERE ==== -->
+      <nav>
+        <div class="ham" id="ham">
+          <div class="mobileBars" id="mobileBars">
+            <!-- <img src="./assets/burger.svg" alt="Burguer" /> -->
+          </div>
+
+          <div class="mobileClose" id="mobileClose">
+            <!-- <img src="./assets/close.svg" alt="X" /> -->
+          </div>
+        </div>
+
+        <ul class="menu" id="menu">
+          <li>
+            <a href="#" id="dark-item" class="navLink">MODO NOCTURNO</a>
+          </li>
+          <hr />
+          <li>
+            <a
+              href="./html/favorites.html"
+              class="favoLink navLink"
+              id="favorites"
+              >FAVORITOS</a
+            >
+          </li>
+          <hr />
+          <li>
+            <a href="./html/myGifos.html" class="myGifLink navLink"
+              >MIS GIFOS</a
+            >
+          </li>
+          <hr />
+          <!-- create will be hidden in navbar mobile -->
+          <li>
+            <a href="./html/create.html">
+              <img
+                src="./assets/nav_day_mob/button-crear-gifo.svg"
+                alt="Logo crear Gifo"
+                id="create"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <!-- ==== NAV END HERE ==== -->
+    </header>
+    <!-- ==== HEADER END HERE ==== -->
+
+    <!-- ==== MAIN START HERE ==== -->
+    <main role="main">
+      <!-- == main section 1 Title & Image == -->
+      <section>
+        <div class="title">
+          <h1>
+            Inspírate, busca, guarda, y crea los mejores <span>GIFOS</span>
+          </h1>
+        </div>
+      </section>
+
+<!-- == main section  Max Gifo == -->
+<section class="max" id="max">
+    <div class="maxiCont">
+      <div class="maxContClose"></div>
+      <div class="maxContImage">
+        <img src="./assets/max/Nyan Cat GIF.gif" alt="Nyan Cat">
+      </div>
+      <div class="maxContData">
+        <div class="text">
+          <h2>Nazgul</h2>
+          <p>Nyan cat (original)</p>
+        </div>
+        <div class="actions">
+          <div class="favorites"></div>
+          <div class="download"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    </main>
+    <!-- ==== MAIN END HERE ==== -->
+
+    <!-- ==== FOOTER START HERE ==== -->
+    <!-- ==== FOOTER END HERE ==== -->
+  </body>
+</html>

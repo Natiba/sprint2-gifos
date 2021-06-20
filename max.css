@@ -1,0 +1,98 @@
+.max {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.85);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .maxContainer {
+    width: 340px;
+    height: 255px;
+  }
+  
+  @media (min-width: 1366px) {
+    .maximizar__container {
+      width: 695px;
+      height: 4385px;
+    }
+  }
+  
+  .maxContClose {
+    width: 20px;
+    height: 10%;
+    background: url("./assets/max/close.svg") center no-repeat;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  
+  .maxContImg {
+    width: 100%;
+    height: 75%;
+  }
+  
+  .maxContImg img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .maxContData {
+    width: 100%;
+    height: 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .maxContData .text {
+    width: 85%;
+    font-family: Roboto;
+  }
+  
+  .maxContData .text h2 {
+    font-size: 1rem;
+    margin-bottom: 0.15rem;
+    font-weight: regular;
+  }
+  
+  .maxContData .text p {
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+  
+  .maxContData .actions {
+    width: 15%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 0.5rem;
+  }
+  
+  .maxContData .actions .favorites,
+  .maxcontData .actions .download {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .maxContData .actions .favorites {
+    background: url("./assets/max/icon-fav.svg") center no-repeat;
+    margin: 0 0.25rem;
+  }
+  
+  .maxContData .actions .download {
+    background: url("./assets/max/icon-download.svg") center no-repeat;
+  }
